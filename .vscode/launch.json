@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Document/Github Desktop/java/JAVASCRIPT",
-      "program": "d:/Document/Github Desktop/java/JAVASCRIPT/build/Debug/outDebug",
+      "cwd": "d:/Document/Github Desktop/JAVASCRIPT",
+      "program": "d:/Document/Github Desktop/JAVASCRIPT/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
