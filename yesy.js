@@ -248,53 +248,54 @@ newScore.forEach((ns) => {
 */
 /*
 8.Object
-let score1 =50;
-let score2 =80;
+let score1 = 50;
+let score2 = 80;
 
-let calculate_grade1 (score) => {
-console.log('have score',score); 
-if (score >= 80) {
-    console.log('Grade A')
-}
-else if (score >= 70) {
-    console.log('Grade B')
-}
-else if (score>= 60) {
-    console.log('Grade C')
-}
-else if (score>= 50) {
-    console.log('Grade D')
-}
-else {
-    console.log ('Grade F') 
-}
-return grade
+let calculate_grade1 = (score) => {
+  console.log('have score', score);
+  let grade;
+
+  if (score >= 80) {
+    grade = 'Grade A';
+  } else if (score >= 70) {
+    grade = 'Grade B';
+  } else if (score >= 60) {
+    grade = 'Grade C';
+  } else if (score >= 50) {
+    grade = 'Grade D';
+  } else {
+    grade = 'Grade F';
+  }
+
+  console.log(grade);
+  return grade;
+};
+
+function calculate_grade2(score) {
+  let grade;
+
+  if (score >= 80) {
+    grade = 'Grade A';
+  } else if (score >= 70) {
+    grade = 'Grade B';
+  } else if (score >= 60) {
+    grade = 'Grade C';
+  } else if (score >= 50) {
+    grade = 'Grade D';
+  } else {
+    grade = 'Grade F';
+  }
+
+  console.log(grade);
+  return grade;
 }
 
-function calculate_grade2(score) =>{
-    if (score >= 80) {
-        console.log('Grade A')
-    }
-    else if (score >= 70) {
-        console.log('Grade B')
-    }
-    else if (score>= 60) {
-        console.log('Grade C')
-    }
-    else if (score>= 50) {
-        console.log('Grade D')
-    }
-    else {
-        console.log ('Grade F') 
-    }
-    return grade
+// การเรียกใช้ function
+let grade1 = calculate_grade1(score1);
+let grade2 = calculate_grade2(score2);
+console.log('score1 = ' + grade1);
+console.log('score2 = ' + grade2);
 
-}
-//การเรียก function 
-let grade1 = calculate_grade(score1)
-let grade2 = calculate_grade(score2)
-console.log('score1 ='+ grade1)
-console,log('score2 ='+grade2)
 
 */
 /*9. Array Object*/
