@@ -322,8 +322,9 @@ let students = [{
 for (let index =0;index< students.length;index++){
     console.log('student Number',(index +1))
     console.log('name',students[index].name)
-    console.log('age',students[index].grade)
-    console.log('grade',students[index].name)
+    console.log('grade',students[index].grade)
+    console.log('age',students[index].age)
+}
 }
 */
 /*
