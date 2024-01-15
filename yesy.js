@@ -203,9 +203,10 @@ for (let i = 0; i < scores.length; i++) {
 }
 
 2.
-score.forEach((s) => {
-console.log('score:',s)
-})
+let scores = [10, 20, 30];
+scores.forEach((s) => {
+  console.log('score:', s);
+});
 
 
 /*filter แบบใช้เเค่for ยังไม่ใช้ filter
