@@ -272,7 +272,8 @@ let calculate_grade1 = (score) => {
 };
 
 function calculate_grade2(score) {
-  let grade;
+    console.log('have score', score);
+    let grade;
 
   if (score >= 80) {
     grade = 'Grade A';
@@ -289,6 +290,13 @@ function calculate_grade2(score) {
   console.log(grade);
   return grade;
 }
+
+// การเรียกใช้ function
+let grade1 = calculate_grade1(score1);
+let grade2 = calculate_grade2(score2);
+console.log('score1 = ' + grade1);
+console.log('score2 = ' + grade2);
+
 
 // การเรียกใช้ function
 let grade1 = calculate_grade1(score1);
